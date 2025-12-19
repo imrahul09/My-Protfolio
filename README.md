@@ -6,7 +6,6 @@ A responsive personal portfolio showcasing my projects, skills, and resume.
 - HTML
 - CSS
 - JavaScript
-- React
 
 ## Live Demo
 https://imrahul09.github.io/My-Protfolio/
