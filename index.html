@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="welcome-overlay">
+      <div class="welcome-content">
+        <h1>Welcome to my portfolio</h1>
+        <p>Full Stack Web Developer & AI Enthusiast</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <header>
+        <div class="logo">
+          <div class="img"><img src="meee.jpg" alt="RB" /></div>
+          <div>
+            <div style="font-weight: 800">Rahul Bhuniya</div>
+            <div style="font-size: 13px">
+              Full Stack Web Developer • AI enthusiast
+            </div>
+          </div>
+        </div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="intro">
+            <h1>Hi, I’m Rahul — building web apps and exploring AI.</h1>
+            <p class="para">
+              I create responsive web apps with a focus on clean UI and
+              practical functionality. Currently preparing for Full Stack
+              internships and working on projects that combine web and ML.
+            </p>
+            <div class="cta">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn" href="#contact">Hire / Contact</a>
+            </div>
+
+            <div style="margin-top: 16px">
+              <strong style="display: block; margin-bottom: 8px"
+                >Quick Links</strong
+              >
+              <div class="tags">
+                <span class="tag">Simon Says Game</span>
+                <span class="tag">Airbnb Clone</span>
+                <span class="tag">MERN</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="card">
+          <div class="section-head">
+            <h2>About</h2>
+            <small style="color: var(--muted)">A short summary</small>
+          </div>
+          <p style="color: var(--muted)">
+            I’m a passionate Full Stack Developer with experience in HTML, CSS,
+            JavaScript, Node.js, Express, MongoDB and React. I enjoy
+            problem-solving, building scalable web apps and exploring machine
+            learning and AI. Outside of code I like learning spoken English and
+            improving my design skills.
+          </p>
+        </section>
+
+        <section id="projects">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <small style="color: var(--muted)">Selected work</small>
+          </div>
+          <div class="projects">
+            <div class="card project">
+              <div class="top">Simon Say Game(JS)</div>
+              <div>
+                <h3>Simon Says Game</h3>
+                <p style="color: var(--muted); font-size: 14px">
+                  A browser-based memory game built with vanilla JavaScript.
+                  Features responsive design, keyboard support and progressive
+                  difficulty.
+                </p>
+                <div style="margin-top: 10px; display: flex; gap: 8px">
+                  <a
+                    class="btn"
+                    href="https://imrahul09.github.io/simon_says_game/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Live</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://github.com/imrahul09/simon_says_game"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card project">
+              <div class="top">WanderLust(MERN)</div>
+              <div>
+                <h3>WanderLust</h3>
+                <p style="color: var(--muted); font-size: 14px">
+                  A full-stack travel application built withN ode.js,
+                  Express.js, and MongoDB, designed to help users explore
+                  destinations and plan trips effortlessly. It highlights my
+                  skills in building responsive, scalable, and engaging web
+                  experiences.
+                </p>
+                <div style="margin-top: 10px; display: flex; gap: 8px">
+                  <a
+                    class="btn"
+                    href="https://wanderlust-cenp.onrender.com"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://github.com/imrahul09/Wanderlust"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="card" style="margin-top: 12px">
+          <div class="section-head">
+            <h2>Skills</h2>
+            <small style="color: var(--muted)">Technologies amd tools</small>
+          </div>
+          <div class="skills" style="margin-top: 10px">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Express.js</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">EJS</span>
+          </div>
+        </section>
+
+        <section id="contact" style="margin-top: 12px">
+          <div class="section-head">
+            <h2>Contact</h2>
+            <small style="color: var(--muted)">Get in touch</small>
+          </div>
+
+          <div class="contact-grid">
+            <div class="card">
+              <form id="contactForm">
+                <div class="row">
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    id="name"
+                    required
+                  />
+                </div>
+                <div class="row">
+                  <input
+                    type="email"
+                    name=""
+                    id="email"
+                    placeholder="Your email"
+                    required
+                  />
+                </div>
+                <div class="row">
+                  <textarea
+                    id="message"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div style="display: flex; gap: 8px">
+                  <button class="btn btn-primary" type="submit">
+                    Send Message
+                  </button>
+                  <button class="btn" type="button" id="resetBtn">Reset</button>
+                </div>
+                <p
+                  id="formResult"
+                  style="margin-top: 8px; color: var(--muted)"
+                ></p>
+              </form>
+            </div>
+            <aside class="card">
+              <h3>Contact Info</h3>
+              <p style="color: var(--muted)">
+                Email:<strong> rahulbhuniya7276@gmail.com</strong>
+              </p>
+              <p style="color: var(--muted)">
+                Github:
+                <strong
+                  ><a
+                    style="text-decoration: none; color: var(--muted)"
+                    href="https://github.com/imrahul09/"
+                    target="_blank"
+                    >www.Github.com</a
+                  ></strong
+                >
+              </p>
+              <p style="color: var(--muted)">
+                Linkdin:
+                <strong
+                  ><a
+                    style="text-decoration: none; color: var(--muted)"
+                    href="https://www.linkedin.com/in/rahul-bhuniya-webdev/"
+                    target="_blank"
+                    >www.Linkedin.com</a
+                  ></strong
+                >
+              </p>
+              <div style="margin-top: 12px">
+                <h4>Quick facts</h4>
+                <ul
+                  style="color: var(--muted); margin-top: 6px; line-height: 1.6"
+                >
+                  <li>Location:India</li>
+                  <li>Available for internships</li>
+                  <li>Preferred Stack:MERN</li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </section>
+        <footer>Made with ❤️• Rahul Bhuniya • ©<span id="year"></span></footer>
+      </main>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
